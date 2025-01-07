@@ -276,6 +276,7 @@ ul.nav li.active a:before {
 	opacity:1;
 }
 .on {
+	padding-top: 50px;
 	background:rgba(0, 0, 0, 0.8);
 	transition:all 0.3s;
 	-moz-transition: all 0.3s;
@@ -426,6 +427,7 @@ ul.nav li.active a:before {
 #about .heading {
 	text-align:center;
 }
+
 .heading h2 {
 	font-family: 'helvetica_ce_55_romanregular';
 }
@@ -449,7 +451,8 @@ ul.nav li.active a:before {
 .bg-sec {
 	background:#e73131;
 	margin-top:10px;
-	padding: 1% 0%;
+	padding-top: 1%;
+	padding-bottom: 15%;
 }
 .bg-sec h3 {
 	color:#FFFFFF;
@@ -459,6 +462,10 @@ ul.nav li.active a:before {
 .bg-sec p {
 	color:#FFFFFF;
 }
+.button-cotizacion {
+	margin-top: 10px;
+}
+
 /*Service-stylesheets-include-here*/
 #service {
 	text-align:center;
@@ -1102,8 +1109,6 @@ position:absolute;
     color: #fff;
     text-shadow: none;
 }
-.slide-sec{
-}
 
 .slide-sec-1{
 text-align:right;
@@ -1186,3 +1191,37 @@ color:#fff;
 	from {opacity: 0;}
 	to {opacity:1 ;}
   }
+
+  @media (max-width: 359px) {
+	
+	.logo {
+		width: 150px;
+	}
+	a.navbar-brand img {
+		margin-top: 0;
+	}
+	.navbar {
+		background:rgba(0, 0, 0, 0.8);
+		width: 100vw;
+		margin: 0;
+	}
+	.slider-banner {
+		margin-top: 130px;
+	}
+	.item {
+		width: 100%;
+	}
+	#home-carousel .item p {
+		font-size: 12px;
+		line-height: normal;
+	}
+	.btn-down {
+		margin-top:10px;
+	}
+}
+
+@media (min-width: 360px) {
+	.logo {
+		width: 350px;
+	}
+}

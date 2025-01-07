@@ -11,7 +11,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>Donatello Proyect</title>
+<title>Donatello Project</title>
+<!--Favicon-->
+<link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
 <!--Bootstrap-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -37,10 +39,8 @@
 
   
 </head>
-<body data-spy="scroll" data-target=".navbar-default" data-offset="100">
-
-
-
+<body class="w-100" data-spy="scroll" data-target=".navbar-default" data-offset="100">
+ 
 <!--Preloader-->
 <div id="preloader">
   <div id="pre-status">
@@ -53,29 +53,24 @@
 <!--Navigation-->
 <header id="menu">
 <div class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
     <div class="container-fluid">
       <div class="row">
           <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
         <!-- <a class="navbar-brand" href="#menu"><img src="images/Logo/06.png" alt="" style="width: 150px; height: 69px;"></a> -->
-        <a class="navbar-brand" href="#menu"><img src="images/Logo/logo.svg" alt="" style="width: 350px;"></a>
+        <a class="navbar-brand" href="#"><img class="logo" src="images/Logo/logo.svg" alt="Logo"></a>
        </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li class="active"><a class="scroll" href="#menu">Inicio</a></li>
           <li><a class="scroll" href="#about">Sobre Nosotros</a></li>
-          <li><a class="scroll" href="#service">Nuestros Servicios</a></li>
+          <li><a class="scroll" href="#service">Servicios</a></li>
           <li><a class="scroll" href="#features">Obras Recientes</a></li>
           
           <li><a class="scroll" href="#contact">Contacto</a></li>
           <li><a class="scroll" href="#">Cargar CV</a><div class="line"></div></li>
-          
-         
-          
-          
           
         </ul>
       </div>
@@ -85,29 +80,28 @@
     
     </div>
     <!-- /.container-fluid -->
-  </div>
 </div>
 </header>
 <!--Slider-Start-->
 
-<section id="slider">
+<section class="slider-banner" id="slider">
 <div id="home-carousel" class="carousel slide w-100" data-ride="carousel">
   <div class="carousel-inner">
     <div class="item active" style="background-image:url(images/Slider/01_01.jpg); ">
       <div class="carousel-caption container">
         <div class="row">
           <!-- class="col-md-7 col-sm-12 col-xs-12" -->
-          <div class="col-md-7 col-sm-12 col-xs-12">
+          <div class="col-md-7 col-sm-10 col-xs-10">
             
             
-            <h2> TOPOGRAFÍA MINERA</h2>
+            <h2>TOPOGRAFÍA MINERA</h2>
             <p>Relevamientos precisos y confiables para proyectos estratégicos en minería.</p>
             
             
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 col-sm-2 col-xs-4"> <a class="btn-down" href="#contact">Contactar</a> </div>
+          <div class="col-md-4 col-sm-4 col-xs-4"> <a class="btn-down" href="#contact">Contactar</a> </div>
 
         </div>
       </div>
@@ -115,7 +109,7 @@
     <div class="item" style="background-image:url(images/Slider/03_03.jpg)">
       <div class="carousel-caption container">
         <div class="row">
-          <div class="col-md-7 col-sm-12 col-xs-12">
+          <div class="col-md-7 col-sm-10 col-xs-10">
             
             <h2>TOPOGRAFÍA DE OBRAS CIVILES</h2>
             <p>Soluciones precisas y confiables para infraestructuras civiles de alto impacto.</p>
@@ -123,7 +117,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 col-sm-2 col-xs-4"> <a class="btn-down" href="#contact">Contactar</a> </div>
+          <div class="col-md-4 col-sm-4 col-xs-4"> <a class="btn-down" href="#contact">Contactar</a> </div>
 
         </div>
       </div>
@@ -131,7 +125,7 @@
     <div class="item" style="background-image:url(images/Slider/02_02.jpg)">
       <div class="carousel-caption container">
         <div class="row">
-          <div class="col-md-7 col-sm-12 col-xs-12">
+          <div class="col-md-7 col-sm-10 col-xs-10">
             
             <h2>TOPOGRAFÍA DE INFRAESTRUCTURAS</h2>
             <p>Precisión y tecnología al servicio de proyectos de infraestructura.</p>
@@ -139,7 +133,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 col-sm-2 col-xs-4"> <a class="btn-down" href="#contact">Contactar</a> </div>
+          <div class="col-md-4 col-sm-4 col-xs-4"> <a class="btn-down" href="#contact">Contactar</a> </div>
 
         </div>
       </div>
@@ -171,13 +165,13 @@
             actualmente en Proyecto Pachón, nos especializamos en ofrecer soluciones integrales para obras
             civiles e infraestructura.</p>
         </div>
-        <div class="col-md-6 ab-sec-img wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"><img src="images/Slider/04_04.jpg" alt="" style="height: 250px; width: 600px; margin-top: 15px;"> </div>
+        <div class="img-about col-md-6 ab-sec-img wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"><img src="images/Slider/04_04.jpg" alt="" style="width: 100%; margin-top: 15px;"> </div>
       </div>
     </div>
     <br>
     <div class="row">
       <div class="col-md-12 ab-sec">
-        <div class="col-md-7 ab-sec-img wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"><img src="images/Slider/05_05.jpg" alt="" style="height: 250px; width: 600px;margin-top: 15px;"> </div>
+        <div class="img-about col-md-7 ab-sec-img wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms"><img src="images/Slider/05_05.jpg" alt="" style="width: 100%;margin-top: 15px;"> </div>
         
         <div class="col-md-5">
           <h3 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms"><span>D</span>onde la experiencia se une con la innovación para construir el futuro.</h3>
@@ -226,7 +220,7 @@
   <div class="row">
     <div class="features-sec">
       
-      <div class="col-md-5 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="900ms" data-wow-delay="0ms">
+      <div class="col-md-5 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="900ms" data-wow-delay="0ms">
         <div class="media service-box">
           <div class="pull-left"> <i class="fa fa-line-chart"></i> </div>
           <div class="media-body">
@@ -236,11 +230,11 @@
           </div>
         </div>
       </div>
-      <div class="col-md-2 col-sm-6 col-xs-6 wow fadeInUp" >
+      <div class="col-md-2 col-sm-6 col-xs-12 wow fadeInUp" >
         
         
       </div>
-      <div class="col-md-5 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="900ms" data-wow-delay="0ms">
+      <div class="col-md-5 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="900ms" data-wow-delay="0ms">
         <div class="media service-box">
           <div class="pull-left"> <i class="fa fa-spinner"></i> </div>
           <div class="media-body">
@@ -258,7 +252,7 @@
   </div>
   <div class="row">
     <!--/.col-md-4-->
-    <div class="col-md-5 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="900ms" data-wow-delay="600ms">
+    <div class="col-md-5 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="900ms" data-wow-delay="600ms">
       <div class="media service-box">
         <div class="pull-left"> <i class="fa fa-cubes"></i> </div>
         <div class="media-body">
@@ -268,11 +262,11 @@
       </div>
       
     </div>
-    <div class="col-md-2 col-sm-6 col-xs-6 wow fadeInUp" >
+    <div class="col-md-2 col-sm-6 col-xs-12 wow fadeInUp" >
         
         
     </div>
-    <div class="col-md-5 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="900ms" data-wow-delay="600ms">
+    <div class="col-md-5 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="900ms" data-wow-delay="600ms">
       <div class="media service-box">
         <div class="pull-left"> <i class="fa fa-tint"></i> </div>
         <div class="media-body">
@@ -286,7 +280,7 @@
   </div>
   <div class="row">
     <!--/.col-md-4-->
-    <div class="col-md-5 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="900ms" data-wow-delay="900ms">
+    <div class="col-md-5 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="900ms" data-wow-delay="900ms">
       <div class="media service-box">
         <div class="pull-left"> <i class="fa fa-pie-chart"></i> </div>
         <div class="media-body">
@@ -295,11 +289,11 @@
         </div>
       </div>
     </div>
-    <div class="col-md-2 col-sm-6 col-xs-6 wow fadeInUp" >
+    <div class="col-md-2 col-sm-6 col-xs-12 wow fadeInUp" >
         
         
     </div>
-    <div class="col-md-5 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="900ms" data-wow-delay="900ms">
+    <div class="col-md-5 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="900ms" data-wow-delay="900ms">
       <div class="media service-box">
         <div class="pull-left"> <i class="fa fa-map"></i> </div>
         <div class="media-body">
@@ -354,11 +348,11 @@
 <!--Partnets-Start-->
 <div class="bg-sec">
 <div class="container">
-  <div class="col-md-10 col-sm-10 col-xs-8">
+  <div class="col-md-10 col-sm-10 col-xs-12">
     <h3>Solicita una cotización</h3>
     <p>En menos de 24 hs nos contactaremos contigo para darte una atención personalizada.</p>
   </div>
-  <div class="col-md-2 col-sm-2 col-xs-4"> <a class="btn-down" href="#contac">Contactar</a> </div>
+  <div class="button-cotizacion col-md-2 col-sm-2 col-xs-12"> <a class="btn-down" href="#contact">Contactar</a> </div>
 </div>
 </div>
 
@@ -505,6 +499,7 @@
 </ul>
 <p> &copy; Copyright 2024 Donatello Project Segmento del Grupo Donatello - Creado por : <a href="" target="_blank">Xamanen</a> </p>
 </footer>
+
 
 <!--Jquery-->
 <script type="text/javascript" src="js/jquery.min.js"></script>
