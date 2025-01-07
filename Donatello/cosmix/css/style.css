@@ -1192,8 +1192,19 @@ color:#fff;
 	to {opacity:1 ;}
   }
 
+@media (min-width: 360px) and (max-width: 477px) {
+	.logo {
+		width: 250px;
+	}
+}
+
+@media (min-width: 478px) {
+	.logo {
+		width: 350px;
+	}
+}
+
   @media (max-width: 359px) {
-	
 	.logo {
 		width: 150px;
 	}
@@ -1217,11 +1228,5 @@ color:#fff;
 	}
 	.btn-down {
 		margin-top:10px;
-	}
-}
-
-@media (min-width: 360px) {
-	.logo {
-		width: 350px;
 	}
 }
