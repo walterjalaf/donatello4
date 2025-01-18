@@ -98,12 +98,11 @@ color: #FFF;
 	background-image:url(../preloader.gif);
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 296px;
-	left: 38%;
-	margin: -20px 0 0 -20px;
+	height: 50vw;
+	left: 25vw;
 	position: absolute;
-	top: 32%;
-	width: 296px;
+	top: 10vh;
+	width: 50vw;
 }
 .preload-placeholder {
 	background: none;
@@ -515,13 +514,13 @@ ul.nav li.active a:before {
 	text-align:left;
 }
 .media-body p {
-	text-align:left;
+	text-align:justify;
 	font-size: 18px;
 }
 
 /*Features-stylesheets-include-here*/
 #features {
-	text-align:center;
+	text-align:justify;
 	padding:2% 0%;
 }
 #features .nav-tabs {
@@ -890,6 +889,9 @@ textarea.form-control {
 	color:#1769ff;
 	border:2px solid #1769ff;
 }
+.footer-text {
+	font-size: 12px;
+}
 
 /*Index-1-Stylesheets-End-Here*/
 
@@ -1205,6 +1207,15 @@ color:#fff;
 }
 
   @media (max-width: 359px) {
+	p {
+		font-size: 12px;
+	}
+
+	#client-slider .item img {
+		width: 70%;
+		height: 70%;
+	}
+
 	.logo {
 		width: 150px;
 	}
