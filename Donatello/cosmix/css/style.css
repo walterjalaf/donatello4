@@ -429,6 +429,7 @@ ul.nav li.active a:before {
 
 .heading h2 {
 	font-family: 'helvetica_ce_55_romanregular';
+	text-align: center;
 }
 .heading p {
 	padding:20px 0px;
