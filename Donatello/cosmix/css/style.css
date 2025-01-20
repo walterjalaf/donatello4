@@ -176,7 +176,7 @@ a.btn-down {
 	color:#fff;
 	border:2px solid #fff;
 	border-radius: 10px;
-	padding:5% 10%;
+	padding:0.5em 1em;
 	position: relative;
 	top: 35px;
 	font-size: 21px;
@@ -223,9 +223,9 @@ a.btn-send:hover {
 }
 /*Navigation-stylesheets-include-here*/
 .navbar-default {
-	background:none;
+	background: rgba(0, 0, 0, 0.8);
 	border: red;
-	padding: 40px;
+	padding: 45px;
 	opacity: 0.9;
 }
 a.navbar-brand img {
@@ -451,7 +451,7 @@ ul.nav li.active a:before {
 	background:#e73131;
 	margin-top:10px;
 	padding-top: 1%;
-	padding-bottom: 15%;
+	padding-bottom: 3em;
 }
 .bg-sec h3 {
 	color:#FFFFFF;
@@ -462,7 +462,7 @@ ul.nav li.active a:before {
 	color:#FFFFFF;
 }
 .button-cotizacion {
-	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 /*Service-stylesheets-include-here*/
@@ -1197,12 +1197,13 @@ color:#fff;
 @media (min-width: 360px) and (max-width: 477px) {
 	.logo {
 		width: 250px;
+		padding-top: 10px;
 	}
 }
 
 @media (min-width: 478px) {
 	.logo {
-		width: 350px;
+		width: 300px;
 	}
 }
 
@@ -1219,6 +1220,12 @@ color:#fff;
 	.logo {
 		width: 150px;
 	}
+	.navbar-toggle {
+		margin-top: 20px;
+	}
+	.navbar-default {
+		padding: 20px;
+	}
 	a.navbar-brand img {
 		margin-top: 0;
 	}
@@ -1228,7 +1235,7 @@ color:#fff;
 		margin: 0;
 	}
 	.slider-banner {
-		margin-top: 130px;
+		margin-top: 102px;
 	}
 	.item {
 		width: 100%;
